@@ -1,7 +1,7 @@
 # tinygo_leaves
 ## 概要
-TinyGo×leavesで
-Qiita Link: 
+TinyGo×leavesでLightGBMのWASMを作る
+https://qiita.com/tsuno0829/items/d1e48e9213933cc0d2e2
 
 ## 実行手順
     1. LightGBMのモデルを学習して、モデルを保存
@@ -18,10 +18,10 @@ Qiita Link:
     $ make build
     ```
 
-    3. ローカルでlocalhostでWASMの実行確認
+    3. localhostでWASMの実行確認
     ```
     $ go run server.go
     ```
 
 ## 参考
-- https://github.com/tinygo-org/tinygo/tree/release/src/examples/wasm
+https://github.com/tinygo-org/tinygo/tree/release/src/examples/wasm
